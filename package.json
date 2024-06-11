@@ -1,0 +1,15 @@
+{
+  "name": "mmm-bash",
+  "version": "1.0.0",
+  "description": "A simple MagicMirror module to display stdout/stderr of a bash command (on a loop)",
+  "main": "MMM-Bash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mathew Fleisch",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "util": "^0.12.5"
+  }
+}
