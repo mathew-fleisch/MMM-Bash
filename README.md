@@ -49,3 +49,5 @@ The [template](MMM-Bash.njk) uses the class `.Bash` and passes the `config.bashD
   display: none;
 }
 ```
+
+![Example Usage](https://github.com/mathew-fleisch/MMM-Bash/assets/961978/8592cb64-c03b-4b43-b4cf-33f1c45a7f9a)
