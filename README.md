@@ -45,7 +45,7 @@ The [template](MMM-Bash.njk) uses the class `.Bash` and passes the `config.bashD
   letter-spacing: -3px;
 }
 #MMM_BASH .bashCounter {
-  font-size:10px;
+  font-size: 10px;
   display: none;
 }
 ```
