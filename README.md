@@ -24,7 +24,8 @@ npm install
     stderr: "or something went wrong :(",
     bashCommand: "uptime",
     bashCounter: 0,
-    updateInterval: 5 // seconds
+    updateInterval: 5, // seconds
+    fadeUpdate: 100, // 0-5000
   }
 }
 ```
