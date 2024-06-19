@@ -7,6 +7,7 @@ Module.register("MMM-Bash", {
 		bashCommand: "uptime",
 		bashCounter: 0,
 		updateInterval: 5, // seconds
+		fadeUpdate: 100, // 0-5000
 	},
 	notifications: {
 		INIT: 'MMM_BASH_INIT',
@@ -55,7 +56,7 @@ Module.register("MMM-Bash", {
 						self.config.bashCounter = payload.config.bashCounter;
 						self.config.stderr = payload.config.stderr;
 						self.config.stdout = payload.config.stdout;
-						self.updateDom();
+						self.updateDom(self.config.fadeUpdate);
           } else {
             console.log('DATA FAILED ' + payload.message)
           }
